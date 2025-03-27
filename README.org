@@ -8,3 +8,20 @@
   : git submodule update --remote
 
   since otherwise it will revert back to the origin HEAD, which is the master branch.
+
+* Shortcodes
+
+  ** Figure
+
+  This uses the image processing functions provided by Zola to display a resized image and a caption.
+  https://www.getzola.org/documentation/content/image-processing/
+
+  Usage:
+
+  #+begin_src
+{{ figure(
+path=""
+figCaption=""
+scale=0.5
+)}}
+  #+end_src
