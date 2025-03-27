@@ -1,7 +1,7 @@
 +++
 title = "Fecal Froths and Sourdough Starters (SLSA 2019)"
 date = 2019-11-01T16:41:01-05:00
-draft = true
+draft = false
 [taxonomies]
 tags = ["STS", "Hegel", "microbiome"]
 +++
@@ -10,29 +10,26 @@ This talk was delivered at the Society for Literature, Science, and the Arts (SL
 
 # Fecal Froths and Sourdough Starters: A Non-Phenomenology of Alimentation
 
-{{< blockquote caption="G. W. F. Hegel, *Encyclopedia of the Philosophical Sciences* §354 *Zusatz*" >}}
-The simplest animals are merely an intestinal canal.
-{{< /blockquote >}}
+> The simplest animals are merely an intestinal canal.
+>
+> > G. W. F. Hegel, _Encyclopedia of the Philosophical Sciences_ §354 _Zusatz_
 
 ## Fecal Froths
 
-{{< figureCupper
-img="fecal-froths-front.jpg"
-caption="Eight fecal froths monitored in the David Lab"
-command="Resize"
-options="600x"
+{{ figure(
+path="@/blog/slsa2019/fecal-froths-front.jpg"
+figCaption="Eight fecal froths monitored in the David Lab"
+scale=0.8
+) }}
 
-> }}
+In the well-lit, narrow corridors of the David Lab at Duke University, eight translucent cannisters bubble their brown slurries. The smell is faint but familiar. Digital sensors monitor the microbial stews, while tubes carrying metabolites and inert gases maintain their operational closure. These are fecal froths, and they are what historian of science Hans-Jörg Rheinberger calls epistemic things: the element of the experimental system under investigation. They have become a crucial method, principal investigator Lawrence David writes, “for isolating and culturing human gut microbiomes.” As Georges Canguilhem points out, the biological object of study resists its transformation into an artifact native to the laboratory. Just so, David explains that his lab is working with “artificial gut models,” which are isolated from “host processes such as immune response or circadian rhythms.” The fecal froth represents a domestication of microbes alternative to that of the enteric ecologies that are our guts.
 
-In the well-lit, narrow corridors of the {{< link uri="http://el.ladlab.org:8080/" >}}David Lab{{< /link >}} at Duke University, eight translucent cannisters bubble their brown slurries. The smell is faint but familiar. Digital sensors monitor the microbial stews, while tubes carrying metabolites and inert gases maintain their operational closure. These are fecal froths, and they are what historian of science Hans-Jörg Rheinberger calls epistemic things: the element of the experimental system under investigation. They have become a crucial method, principal investigator Lawrence David writes, “for isolating and culturing human gut microbiomes.” As Georges Canguilhem points out, the biological object of study resists its transformation into an artifact native to the laboratory. Just so, David explains that his lab is working with “artificial gut models,” which are isolated from “host processes such as immune response or circadian rhythms.” The fecal froth represents a domestication of microbes alternative to that of the enteric ecologies that are our guts.
-
-{{< figureCupper
-img="fecal-froths-side.jpg"
-caption="Eight fecal froths monitored in the David Lab"
-command="Resize"
-options="600x"
-
-> }}
+{{figure(
+path="@/blog/slsa2019/fecal-froths-side.jpg"
+figCaption="Eight fecal froths monitored in the David Lab"
+scale=0.7
+)
+}}
 
 So, how does this work? By taking a stool sample from a human subject, the microbiota in that sample may then be cultured and monitored as the investigators adjust variables. We were told by our doctoral-student guide that it matters how the sample is taken (Is it from wiping? Is it from the exterior or the interior of the stool?) and how the sample is prepared (Is it blended or stirred?). Above all, this in vitro method intends to resolve two significant challenges to studying the human gut microbiome. One is accessing it in the first place. Another is the glut of data that comes with the genomic approach of sequencing the DNA of a stool sample. Instead of identifying individual taxonomies of host microbiota, an artificial gut model treats the microbiome as a black-box so as to ascertain its function as a processor of metabolites.
 
@@ -69,7 +66,10 @@ Lastly, we should update Hegel’s assumption that the presupposed world is “a
 
 Fecal froths and sourdough starters exemplify how a wide range of microbiota not only contribute to the production of worlds but also participate in technologies for intentionally refashioning those worlds further. Each technological practice integrates microbial cultures with human culture—indeed, they contribute to constructing the latter through such integrations. As Simondon argues, at the historical and etymological roots of culture is cultivation: that is, the modification of a “living being’s environment,” which in turn often modifies the animal (as opposed to husbandry, which acts upon the animal directly). From this perspective, microbiome science expands the scope of what we recognize as cultivation to include the creation of environments that foster a concentrated population of selected microbiota. Beyond livestock and crops, humans have long been cultivating the microbiomes that inhabit those creatures (that is, indirectly) and that make fermentation possible (that is, directly). Today, you can buy kits to genetically engineer brewer’s yeast to make fluorescent beer.
 
-{{< figureCupper img="fluorescent-yeast.png" caption="This is from Josiah Zayner’s company website, The Odin. You may have heard of Zayner because he performed his own fecal transplant a couple years ago and blogged about it." command="Resize" options="600x" >}}
+{{figure(
+path="@/blog/slsa2019/fluorescent-yeast.png"
+figCaption="This is from Josiah Zayner’s company website, The Odin. Zayner performed his own fecal transplant a couple years ago and blogged about it."
+scale=0.5)}}
 
 I have been keen to point out the technological nature of these microbial cultivations in order to highlight how consciousness intentionally engages with nonhuman, nonconscious sensations. A Hegel-inspired alimentary philosophy implicates human phenomenology within the multifarious digestions that is our biome in process. I think that Hegel can be read as replacing Kant’s a priori conditions of possible experience with a contingently interlocking system of alimentations. The outcome, however, is not Absolute Spirit contemplating the logical necessity of its emergence but, rather, an experimental field for intervening in the grounds of possible experience. By inventing a novel synthesis of human experience with its grounding alimentations, the later circle back to the consciousness that was involved in their invention and expand its phenomenological purview. (Or, to use a Hegelian term, they infect it.) Simondon explains, in language reminiscent of his teacher Georges Canguilhem, that a modified environment in turn “offers [the organism] a new field of action, demanding a new adaptation and arousing new needs.”
 
