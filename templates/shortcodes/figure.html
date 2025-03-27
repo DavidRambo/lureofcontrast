@@ -1,0 +1,20 @@
+<!-- This uses the image processing functions provided by Zola to display a resized image
+and a caption.
+
+https://www.getzola.org/documentation/content/image-processing/
+
+Usage:
+{{ figure(
+path=""
+figCaption=""
+scale=0.5
+)}}
+
+-->
+{% set mdata = get_image_metadata(path=path) %} {% set image =
+resize_image(path=path, width=(mdata.width * scale)|int, op="fit_width") %}
+
+<figure role="group" aria-describedby="{{ figCaption }}">
+  <img src="{{ image.url }}" />
+  <figcaption>{{ figCaption }}</figcaption>
+</figure>
