@@ -1,0 +1,10 @@
+#+title: README for Lure of Contrast Zola Site
+
+* Add theme as a submodule
+  I use [[my own fork][https://github.com/DavidRambo/hermit_zola]] of VersBinarii's Hermit theme for Zola, itself adapted from the Hugo theme of the same name.
+  Since I want to use my own branch that diverges from the master branch, I have set the gitmodule for the theme to track the ~forked_changes~ branch by default.
+  So when updating the theme, be sure to use
+
+  : git submodule update --remote
+
+  since otherwise it will revert back to the origin HEAD, which is the master branch.
