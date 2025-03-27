@@ -12,14 +12,14 @@ This talk was delivered at the Society for Literature, Science, and the Arts (SL
 
 > The simplest animals are merely an intestinal canal.
 >
-> > G. W. F. Hegel, _Encyclopedia of the Philosophical Sciences_ §354 _Zusatz_
+> — G. W. F. Hegel, _Encyclopedia of the Philosophical Sciences_ §354 _Zusatz_
 
 ## Fecal Froths
 
 {{ figure(
 path="@/blog/slsa2019/fecal-froths-front.jpg"
 figCaption="Eight fecal froths monitored in the David Lab"
-scale=0.8
+scale=0.5
 ) }}
 
 In the well-lit, narrow corridors of the David Lab at Duke University, eight translucent cannisters bubble their brown slurries. The smell is faint but familiar. Digital sensors monitor the microbial stews, while tubes carrying metabolites and inert gases maintain their operational closure. These are fecal froths, and they are what historian of science Hans-Jörg Rheinberger calls epistemic things: the element of the experimental system under investigation. They have become a crucial method, principal investigator Lawrence David writes, “for isolating and culturing human gut microbiomes.” As Georges Canguilhem points out, the biological object of study resists its transformation into an artifact native to the laboratory. Just so, David explains that his lab is working with “artificial gut models,” which are isolated from “host processes such as immune response or circadian rhythms.” The fecal froth represents a domestication of microbes alternative to that of the enteric ecologies that are our guts.
@@ -27,7 +27,7 @@ In the well-lit, narrow corridors of the David Lab at Duke University, eight tra
 {{figure(
 path="@/blog/slsa2019/fecal-froths-side.jpg"
 figCaption="Eight fecal froths monitored in the David Lab"
-scale=0.7
+scale=0.5
 )
 }}
 

@@ -33,7 +33,7 @@ At the book’s outset, Yong therefore establishes a continuity between more fam
 
 > Why can organisms as disparate as humans and bacteria live together and cooperate? Because we share a common ancestor. We store information in DNA using the same coding scheme. We use a molecule called ATP as a currency of energy. The same is true across all life. Picture a BLT sandwich: every component, from the lettuce and tomatoes to the pig that produced the bacon, to the yeast that baked the bread, to the microbes that surely sit on its surface, speaks the same molecular language.
 >
-> > "Ed Yong, _I Contain Multitudes_"
+> — "Ed Yong, _I Contain Multitudes_"
 
 In this passage, language both is a metaphor and encapsulates a slew of other metaphors: information and coding, currency, a sandwich, and arguably the notion of a machine associated with the word “component.” Later in the book, Yong reups this framework of speech as second-order metaphor when he writes: “Our relationship with them isn’t a one-off exchange but a continuous negotiation.” Within another paragraph from chapter one that seeks to express the versatility of bacteria and their necessity for life as we know it, Yong uses a series of active verbs that implicitly place the human into the position of passive object: they “help to digest,” “produce,” “break down,” “protect” by “crowding out” and “killing,” they “guide,” “educate,” and “contribute.” The only treatment of microbes as a grammatical object in this passage reinforces their productive agency: “we have outsourced surprising aspects of our lives to them.” (Aside about outsourcing as starting from a coherent human.) The microbial subject in these sentences is repeatedly the third-person plural “they.” Thus, Yong develops a two-sided strategy for appreciating the scope of microbial activity. On the one hand, the microbiome is a teeming plenitude of diversity, while, on the other hand, these different functions can be reduced to an amorphous, omnipresent, seemingly omnipotent collective subject.
 
@@ -59,7 +59,7 @@ Ordinarily my reading of _Schismatrix_ hinges upon the lateness with which the t
 > People began to speak, for the first time, of the Schismatrix—of a posthuman solar system, diverse yet unified, where tolerance would rule and every faction would have a share.  
 >         The aliens—they called themselves the Investors—seemed unlimited in power. They were ancient, so old that they remembered no tradition earlier than starflight. Their mighty starships ranged a vast economic realm, buying and selling among nineteen other intelligent races.
 >
-> > Sterling 109
+> — Sterling 109
 
 It denotes the subsumption of post-Earth human societies into the trade network of a mercantilist species of aliens who call themselves the Investors. Returning to the novel now, however, I am inclined to focus both on the prevalence of microbes as well as on the extent to which the narrative’s human-scale and interplanetary action analogizes the fluctuating diversity of microbiota. Sterling’s diction shares some of Yong’s own linguistic strategy, as critics like Scott Bukatman have noted how it “conflat[es] a number of irreconcilable terms such as life/nonlife, biology/technology, human/machine” (Bukatman, Terminal Identity 277).
 
@@ -67,7 +67,7 @@ But first, from where does Sterling’s multiscalar, ecological sensibility deri
 
 > This book boasted some of the most awesomely beautiful scientific jargon that I had ever witnessed in print. The writing was of such dense, otherworldly majesty that it resembled Scripture. […] So naturally I used his terminology as the basis for the Shaper/Mechanist mysticism. It worked like a charm.
 >
-> > "Sterling vii"
+> — "Sterling vii"
 
 When Prigogine read some of the _Schismatrix_ short stories, he “remarked perceptively that these stories had nothing whatever to do with his Nobel Prizewinning breakthroughs in physical chemistry. Well, that was very true, but charms are verbal structures. They work regardless of chemistry or physics.” Great—that gets me off the hook for reviewing my grad school notes on Prigogine’s far-from-equilibrium thermodynamics. Nevertheless, Sterling brings to bear on his world-building a sensitivity for lifeforms big and small, whether enduring or brief, and to the emergent unpredictability that comes with complex systems.
 
@@ -79,7 +79,7 @@ Sterling includes some of the latter, to be sure, like the “rejuvination virus
 >         Every Concatenate world faced biological problems as the habitat aged [...]  
 >         Fertile soil required a minimum of ten million bacterial cells per cubic centimeter. This invisible swarm formed the basis of everything fruitful. Humanity had carried it into space.
 >
-> > "Sterling 12"
+> — "Sterling 12"
 
 When traveling to a new planet, one’s microbiome must adapt to the novel microbial flora both on the spaceship and at the destination. A nerdy drinking game could be devised for the audiobook revolving around the frequency of words related to microbially induced effluvia. Characters are constantly coughing, sneezing, and observing smaller organisms consuming their bodily detritus. There’s some overlap with Yong’s emphasis on the invisible necessity of microbes, but Sterling also emphasizes the messiness of microbes—something that is more at home in Steve Mould’s microbe primer for kids (there’s a lot of fart humor).
 
@@ -95,14 +95,14 @@ And this microbial shaping of worlds shapes the protagonist’s ethics: “World
 >         The Republic constantly struggled to control its Sours. In the Zaibatsu [definition: ‘a powerful financial and industrial conglomerate of Japan’ (Mir-Web)], the souring had become epidemic. Mutant fungi had spread like oil slicks, forming a mycelial crust beneath the surface of the soil. This gummy crust repelled water, choking trees and grass. Dead vegetation was attacked by rot. The soil grew dry, the air grew damp, and mildew blossomed on dying fields and orchards, gray pinheads swarming into blotches of corruption, furred like lichen…  
 >         When matter reached this stage, only desperate efforts could restore the world.
 >
-> > "Sterling 12"
+> — "Sterling 12"
 
 We are told about refugees forming their own nomadic societies when forced to relocate when such worlds are sterilized and reseeded. Later, a small conclave on an asteroid becomes infected by such travels:
 
 > The worst was sepsis. The organisms brought from the Zaibatsu wreaked havoc on the delicate biosystems of ESAIRS XII. […]  
 >         The attenuated blossoms of the Shaper garden [engineered to live without bacteria] mildewed and crumbled at the touch of raw humanity. The vegetation took strange forms as it suffered and contorted, its stems corkscrewing in rot-dusted perversions of growth.
 >
-> > "Sterling 103"
+> — "Sterling 103"
 
 Here, “raw humanity” refers equally to the microbiome borne by human bodies as to the modification of plants to live without bacteria.
 The challenge _Schismatrix_ presents from its perspective of ecological complexity is learning to care for the individual in abstraction from any one individual.

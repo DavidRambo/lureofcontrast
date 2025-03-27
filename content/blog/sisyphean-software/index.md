@@ -56,7 +56,7 @@ Apparently, the player, whose alias is “CirclMastr,” picked up this task aft
 > “Life does not have inherent meaning […] No matter how grand our achievements or how broad their scope, time turns all to dust and death destroys all memory. But that does not mean we cannot ascribe our own meaning to what we do. It is because nothing has meaning unto itself that we are free to create meaning, to make metaphor, and in doing so reflect on ourselves and our world.  
 >         “Leveling to 99 in the first reactor is pointless and meaningless. So why do I do it? I do it to express my hatred, and more importantly my disdain, for Dick Tree. I do it to express the camaraderie I feel for those of us who have followed this topic for years only to be disappointed by [Dick Tree]. I do it to prove to myself that I can persevere. The act is meaningless; I give it meaning.”
 >
-> > "CirclMastr, 4/10/17 11:28am, comment on kotaku.com/final-fantasy-vii-player-hits-level-99-in-the-first-rea-1794171766"
+> — "CirclMastr, 4/10/17 11:28am, comment on kotaku.com/final-fantasy-vii-player-hits-level-99-in-the-first-rea-1794171766"
 
 This statement is absurd both in the philosophic sense and in the more common sense of sounding ridiculous. It is also emblematic of Camus’s lesson on the absurd creator, which can now include the gamer: “to know that one’s creation has no future, to see one’s work destroyed in a day while being aware fundamentally that this has no more importance than building for centuries” (14). We can therefore think of all saved games as “the dogged revolt against [the player’s] condition, [as] perseverance in an effort considered sterile” (15).
 
@@ -153,4 +153,3 @@ When _Dark Souls_’ apparent ending is reached, one either turns it off or star
 The Emerald Herald tells the player in _Dark Souls 2_ what is, I think, the only choice available in a game: “Once the fire is linked, souls will flourish anew and all of this will play out again. It is your choice: to embrace or renounce this.” In order to understand computer games in broader contexts, one must, I think, begin with this absurd problem. Its solution, as Camus instructs us, is to celebrate this struggle and to experience it for its own sake. Sisyphean software implicates the player’s resolve to struggle against an absence of ulterior purpose in the computer game’s technical superposition of temporally heterogeneous layers.
 
 ![Press Start](press-start.jpg)
-
