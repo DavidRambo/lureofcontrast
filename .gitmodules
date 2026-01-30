@@ -1,4 +1,4 @@
 [submodule "themes/hermit_zola"]
 	path = themes/hermit_zola
 	url = https://github.com/DavidRambo/hermit_zola
-	branch = forked_changes
+	branch = master
