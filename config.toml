@@ -29,7 +29,6 @@ home_subtitle = ""
 
 hermit_menu = [
     { link = "/blog", name = "Writings" },
-    { link = "/projects", name = "Software Projects" },
     { link = "/about", name = "About" },
 ]
 
