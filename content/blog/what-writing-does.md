@@ -15,7 +15,7 @@ Draney gives a helpful précis of Friedrich Kittler's media-historical claim tha
 The gist is that since Intel's engineers designed the first integrated microprocessor in the early 1970s, writing has become automated—not in the sense of "automatic writing" (a technique whereby a poet writes ceaselessly so as to avoid as much conscious intent as possible) but, rather, insofar as our writing has gradually relocated from paper to "rearranged lines of code on a word processor" (Draney).
 Once it's computational, the production, recording, and duplication and distribution of human writing is irrevocably transformed because the media of writing are out of mind and, without access to the source code or an electron microscope, out of sight.
 
-Tenen begins from Kittler's primse, but he takes a slightly different view with regards to literature: not only does it continue to exist and have new things to express, literature and especially literary theory "are far more effective as political tools than any banal, agit-prop list of digital privacy breaches."
+Tenen begins from Kittler's premise, but he takes a slightly different view with regards to literature: not only does it continue to exist and have new things to express, literature and especially literary theory "are far more effective as political tools than any banal, agit-prop list of digital privacy breaches."
 I am instinctively in agreement, and I was pleased to see Viktor Shklovsky referenced.
 However, I find the argument strange:
 
