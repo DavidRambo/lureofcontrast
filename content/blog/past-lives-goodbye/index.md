@@ -59,7 +59,7 @@ With the still life, cinema collapses the temporal distance of two lives' moveme
 The two scenes are one and the same goodbye.
 More than a reversal, temporality takes on a bidirectional mutuality here, with the first goodbye virtually present in the second, and the second in the first, each the other's past.
 Together they form what Deleuze calls a "crystal-image," a crystal of time in which the splitting into past and new present is held in suspense.
-Past and present coalesce in the interstitial childhood goodbye shot, concentrating the pre-subjective potential out of which Nora and Hae Sung will be determined into a direct presentation.
+Past and present coalesce in the interstitial childhood goodbye shot, concentrating into a direct presentation the pre-subjective potential out of which Nora and Hae Sung will be determined.
 
 Inyeon is throughout the film invoked as a personal diachronic counterweight to the global synchronic.
 (Recall the Nobel prize line: the spatial dimension of Nora's life is dictated by Euro-American cultural hegemony.)
