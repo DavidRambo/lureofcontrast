@@ -53,13 +53,13 @@ It is night.
 
 The subtle changes to the shot do more than emphasize the echo of that first goodbye in the present.
 In an inversion of inyeon's temporality, which is explained as being directed from past to future, here their interaction effects the past, as if the choices yet to come relative to the 12-year-olds' goodbye were needed to determine the meaning of that past life.
-What seems like a flashback is instead symbol of simultaneity wherein the lives separated by twenty-four years coincide.
+What seems like a flashback is instead a symbol of simultaneity wherein the lives separated by twenty-four years coincide.
 Young Hae Sung and Na Young are presented as a still life.
-With the still life, cinema collapses the temporal distance of two lives' movement into a time-image: a bit of time in its pure state.[^cinema2]
-The two scenes are one and the same goodbye.
+With this still life, cinema collapses the temporal distance of two lives' movement into a time-image: a bit of time in its pure state directly presenting the pre-subjective potential out of which Nora and Hae Sung will be determined.[^cinema2]
 More than a reversal, temporality takes on a bidirectional mutuality here, with the first goodbye virtually present in the second, and the second in the first, each the other's past.
 Together they form what Deleuze calls a "crystal-image," a crystal of time in which the splitting into past and new present is held in suspense.
-Past and present coalesce in the interstitial childhood goodbye shot, concentrating into a direct presentation the pre-subjective potential out of which Nora and Hae Sung will be determined.
+The two scenes are one and the same goodbye.
+Past and present coalesce in the interstitial childhood goodbye shot, which bears the weight of twenty-four years to follow and all the life that did not happen because Nora moved.
 
 Inyeon is throughout the film invoked as a personal diachronic counterweight to the global synchronic.
 (Recall the Nobel prize line: the spatial dimension of Nora's life is dictated by Euro-American cultural hegemony.)
