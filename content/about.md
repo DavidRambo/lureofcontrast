@@ -34,7 +34,7 @@ Complexity in experience, with its width of sensitivity and its depth of intensi
 But contrast is insufficient for a gain in intensity, and this is why it is figured as a lure: it provides the basis for process to proceed further with the synthesis of its world.
 Forms of feeling not directly present in the data under contrast are needed in order to feel the contrast itself.
 
-Reversion is Whitehead’s first proposed means whereby experience is furnished with ideas not directly derivative from the world.[^First]
+Reversion is Whitehead’s first proposal to explain how experience is furnished with ideas not directly derivative from the world.[^First]
 I have seen only so many shades of blue, yet I can imagine the absent shade that would appear to fit between those I know.
 Some of what has been decided by the past, and which necessarily conditions the creation of consequent experience, may be reverted to a wider range of possible feeling.
 Reversion is the moment of process whereby some datum that composes the real potentiality of the world becomes a bit closer to the pure potentiality of the form ingressed in it.
