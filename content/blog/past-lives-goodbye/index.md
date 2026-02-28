@@ -46,7 +46,7 @@ It's cut into the scene right after Hae Sung turns from the car that will take h
 When the scene referenced by the flashback actually happens early in the film, the two kids are walking home during the day after school.
 Young Nora, as if already moved on to her next life in Canada, begins to walk up the steps to the right without ceremony.
 Hae Sung calls to her (“Hey!”), she turns around (“What?”), and we see Hae Sung from her perspective (“Bye”) before returning to the perspective that watches them walk their forked paths.
-As a flashback, Na young (adult Hae Sung uses Nora's Korean name in the present) stands on the first step looking at Hae Sung, who also stands just left of center staring back.
+As a flashback, Na young (adult Hae Sung uses Nora's Korean name in the present) stands on the same step as before, looking at Hae Sung, who also stands just left of center staring back.
 It is night.
 
 ![](second_goodbye.jpg)
