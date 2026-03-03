@@ -35,6 +35,7 @@ It's not that automatisms are bad.
 Rather, it's a matter of how automatisms come about and what ends they serve.
 In a word, how are they _mediated_ (I'll return to this at the end).
 As Kriss remarks about Roy of Cluely, he's all means without any sight of the ends:
+
 > Roy didn’t really seem to have anything in his life except his own sense of agency. Everything was a means to an end, a way of fortifying his ability to do whatever he wanted in the world. But there was a great sucking void where the end ought to be. All he wanted, he’d said, was to hang out with his friends. I believed him. He wanted not to be alone [...] To exist for other people.
 
 But in that existential anxiety, Roy—and I'm referring here not so much to the person Kriss spent time with as to the character Kriss portrays—has opted out of anxiety in favor of a more thingly being, fully there in the present.
@@ -42,7 +43,7 @@ That's the trouble with ends: they don't exist.
 They're latent ideals that organize our responses to the world and enforce a measure of our performance.
 So neither can the being that pursues ideals be fully present.
 The opposing figure here is the Joined in _Pluribus_, who are interpreted by the non-joined characters as having lost (or overcome, depending on the perspective) the alienation and anxiety that are intractable aspects of individual existence.
-We see the Joined transition from one task to the next without hesitation, like NPCs in a video game executing a sequence of instructions and following the shortest path calculated by the A* algorithm.
+We see the Joined transition from one task to the next without hesitation, like NPCs in a video game executing a sequence of instructions and following the shortest path calculated by the A\* algorithm.
 The existence of those who have joined is so intensely determined as to lack the experience of uncertainty and thus of anxiety and the decision of its resolution.
 There are tasks to do but no interval between the experience of motivation to perform the task and actually doing it.
 
@@ -56,7 +57,7 @@ It could, like Hamlet, want to stave off the risk of facing one's past actions a
 It is a state of perpetual deliberation.
 
 The point of considering agency in terms of this spectrum is obviously that agency requires constraints, limiting factors that give it form and direct it away from either reactivity or reflectivity.
-Agency is not a purely outward-directed, seize-the-day manner of conducting oneself.[^Hayles_agency] 
+Agency is not a purely outward-directed, seize-the-day manner of conducting oneself.[^Hayles_agency]
 Neither is it a simple input-deliberation-output process.
 The picture of an LLM "hooked up" to a human who is capable of maximally diverse responses that would carry out the result of inference is a bit of an idealist caricature.
 There is no human response without constraints on what that response could be in the first place.
@@ -66,5 +67,4 @@ This is why it makes so much sense to think about technology together with agenc
 But we already have much better and provocative terms for describing this than agentic: regimes of training, exercises, programs of reform, and habit.
 Even Roy's way of life as an LLM appendage is subject to regimes of training.
 
-
-[^Hayles_agency]: N. Katherine Hayles considers physical operation a form of agency. Cognition distinguishes an organism's selective agency from the unilateral agency of, say, a tornado. This is too close to Latourian actants or related New Materialist terms for my tastes. As a Whiteheadian, I'm of course open to, and convinced by, the efficacy of broadening terms that ordinarily apply to the human sphere in order to explain how the human version is a specialized case of a generic feature of cosmological process. It's a bit like Spinoza's rhetorical "Deus, sive Natura." Perhaps "agency" is one of those terms. I'm inclined to say that efficacy or power aren't already adequate.
+[^Hayles_agency]: N. Katherine Hayles considers physical operation a form of agency. Cognition distinguishes an organism's selective agency from the unilateral agency of, say, a tornado. This is too close to Latourian actants or related New Materialist terms for my tastes. As a Whiteheadian, I'm of course open to, and convinced by, the efficacy of broadening terms that ordinarily apply to the human sphere in order to explain how the human version is a specialized case of a generic feature of cosmological process. It's a bit like Spinoza's rhetorical move with "Deus, sive Natura." Perhaps "agency" is one of those terms. I'm inclined to say that efficacy or power are already adequate.
