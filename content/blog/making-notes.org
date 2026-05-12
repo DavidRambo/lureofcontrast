@@ -1,0 +1,47 @@
++++
+title = "Can Making Notes Be a Discipline? (On using org-roam and contemporary zettelkasten practices)"
+date = 2026-05-12
+draft = true
++++
+#+title: Can Making Notes Be a Discipline? (On using org-roam and contemporary zettelkasten practices)
+
+Late last year I returned to a reading-and-writing practice following a nearly two-year hiatus from when I left academia.
+The circumstances around my writing have changed, of course.
+I no longer read and respond to what I take in with a motivation to publish, deliver a talk, or teach a class.
+Yet those motivators did express the deeper purpose of critical writing: namely, to think.
+What is it we do when we think?
+We occupy a different place than ordinary, practical life.
+We entertain a theoretical attitude that is an open-ended training regime requiring frequent straining of one's sensitivities to what experience comprises including, crucially, those forms that are coextensive with experiences of reason. 
+This different place, for me and for many, has increasingly been the making of notes.
+But before I explain some of the practicalities, like the tools I use, how I use them, and how that compares with recent ideas about those tools, I think it would be helpful to dwell on what goes on in such a place.
+
+"Thinking persons are transposed to a sphere dominated by a single exercise: to clarify the meaning of words, sentences, and sequences of phrases we may speak when we want to say something true" (Sloterdijk, /The Art of Philosophy/ ch.1).
+The fundamental exercise of the theoretical attitude is the preparation of language for expressing truth.
+This is, essentially, a Platonic definition of thinking activity, of reasoning, in that it aims toward knowledge (/episteme/) in direct opposition to opinion (/doxa/).
+Thought is the working through of language in order to mean truthfully, that is to say it works through and on language.
+To mean is to intend, to direct oneself toward.
+Thinking orients oneself toward the true.
+But this process of orienting is less a turning around—as if the philosopher or critic merely turns their attention away from the false and toward truth—than it is a cultivating of the terrain that makes expression as such possible.
+(Though perhaps there is good reason to connect thinking as orientation to conversion.)
+One can think of gravitation on a plane in space and imagine the repeated exercise of thinking as shaping those forces of attraction so that when one moves, one's movement is directed by the modified curvature of the space rather than by a spontaneous force of will.
+
+Writing as thinking is a practice of transforming habits of speech to enunciate truthfully.
+Such transformation includes the transformation of the words themselves, as they are part and parcel of those habits of expression.
+"To clarify the meaning of words, sentences, and sequences of phrases" is not a one-sided affair, whereby the thinker becomes better able to make sense of static phrases.
+It is a process of customizing language, of creating new language.
+Knowledge, as a lived practice, requires perpetual reproduction and novel creation.
+This demand on language by thought is, for instance, of central importance to Whitehead's process philosophy.
+In order to construct a cosmological scheme on a radically revised basis relative to substance-based philosophies, Whitehead had to contend with the basic subject-predicate structure of language that has conditioned philosophic speculation since Aristotle.
+"Words and phrases must be stretched towards a generality foreign to their ordinary usage; and however such elements of language be stabilized as technicalities, they remain metaphors mutely appealing for an imaginative leap" (/PR/ 4).
+Since thinking goes hand in hand with the symbolic reference that serves as its medium, it is better to speak not of the demand on language by thought but of the demand on past thought by novel thinking.
+
+My way of writing has changed to reflect this new circumstance of performing criticism for the sake of self-formation rather than professional output and performance.
+
+
+Yet to frame thinking as exercises in the manipulation of symbolic reference (to generalize from written language) is to beg the question: what of the performances for which training prepares the exercitant?
+As an academic, these were obvious: publications, talks, and teaching.
+But the point of taking an ascetic perspective on writing is to recognize the very exercises as performances in their own right.
+
+Sloterdijk: "every gesture carried out shapes its performer and determines their future state from the second occurrence on" (/YMCYL/ "Prospect").
+
+Practice can be considered a self-contained process insofar as it refers to any gesture that 
