@@ -5,13 +5,31 @@ draft = true
 +++
 #+title: Can Making Notes Be a Discipline? (On using org-roam and contemporary zettelkasten practices)
 
-Late last year I returned to a more regular reading-and-writing practice following a nearly two-year hiatus from when I left academia.
-Before that, in the summer, I read some of recent interest in note-taking systems inspired by Niklas Luhmann's zettelkasten, or slip-box.
 
+Late last year I returned to a more regular reading-and-writing practice following a nearly two-year hiatus from when I left academia.
+Before that, in the summer, I read up on the recent interest in note-taking systems inspired by Niklas Luhmann's zettelkasten, or slip-box.
+In this post I go over how I write today, including the tools I use and how and why I use them as I do, as well as some criticism of zettelkasten discourse.
+
+* How I write
+I write in plain text ~.org~ files (a markup language called "org") using [[orgmode.org][org mode]], which is first and foremost a major mode in the text editor and active LISP environment [[https://www.gnu.org/software/emacs/][GNU Emacs]].
+Specifically, I use [[https://github.com/doomemacs/doomemacs][Doom Emacs]] because, one, before writing in Emacs I used [[https://github.com/vimwiki/vimwiki][vimwiki]] and really enjoy Vim's modal editing, and, two, it makes running a quick, feature-filled, and nice-looking configuration of Emacs relatively easy.
+And since Emacs is an interpreter of its own LISP variant, you can write and run code that modifies your setup on the fly.
+Here's [[https://www.github.com/DavidRambo/doom_config][my config]] (the main file is lit_config.org, which provides an example of how org mode supports literate programming).
+
+For a while I used more of org mode's features like the agenda and calendar.
+I even did inline LaTeX for all my homework in a math class once.
+Its integration with pandoc for exporting to other file formats allows me to write longform pieces in Emacs before finishing them up in LibreOffice or just converting to a PDF.
+Writing longer pieces using org's structured text (nested headings) with [[https://github.com/emacs-evil/evil][evil-mode]] for a Vim-like experience and quick access to all my existing writing is awesome.
+These days I mainly use a plugin called [[https://www.orgroam.com][org-roam]], inspired by [[https://roamresearch.com][Roam Research]], which provides a basic zettelkasten function: namely, a list of a file's backlinks (i.e. files that link to it).
+It uses a sqlite database to support its own linking system (org mode already supports links) and note search.
+This makes it possible to change the titles of notes without either worrying about the underlying file name or needing to update all the backlinks, since everything is rooted to unique IDs.
+Each heading in an org file can be tagged with additional metadata, including an id for org-roam's database, so a single file can contain multiple such notes.
+
+Finally, I sync my notes between machines using git, which of course can be run within Emacs with [[https://github.com/magit/magit][magit]].
 * Thinking as an askesis with symbolic reference
-The circumstances around my writing have changed, of course.
+First and foremost, the circumstances around my writing have changed.
 I no longer read and respond to what I take in with a motivation to publish, deliver a talk, or teach a class.
-Yet those motivators did express the deeper purpose of critical writing: namely, to think.
+Yet those motivators did express the deeper purpose of critical writing: to think.
 What is it we do when we think?
 We occupy a different place than ordinary, practical life.
 We entertain a theoretical attitude that is an open-ended training regime requiring frequent honing and straining of one's sensitivities to what experience comprises including, crucially, those forms that are coextensive with experiences of reason. 
@@ -21,10 +39,11 @@ But before I explain some of the practicalities, like the tools I use, how I use
 "Thinking persons are transposed to a sphere dominated by a single exercise: to clarify the meaning of words, sentences, and sequences of phrases we may speak when we want to say something true" (Sloterdijk, /The Art of Philosophy/ ch.1).
 According to Peter Sloterdijk, the fundamental exercise of the theoretical attitude is the preparation of language for expressing truth.
 This is, essentially, a Platonic definition of thinking activity, of reasoning, in that it aims toward knowledge (/episteme/) in direct opposition to opinion (/doxa/).
-Thought is the working through of language in order to mean truthfully, that is to say it works through and on language.
+(This isn't the setting to explore what is meant by "truth." So suffice it to say that the sense of truth here is not to be constrained to judgements of whether a proposition corresponds to empirical evidence. Following Whitehead, I am inclined to open up the goal of thinking from "truth" to "interest" and its basic operation from judgement to entertainment. But I'll stick with the term "true" because it denotes the critical side of rational speculation, whereas "interest" can be conflated with flights of fancy.)
+Thought is the working through of language in order to mean truthfully; it works through and on language.
 To mean is to intend, to direct oneself toward.
-Thinking orients oneself toward the true.
-But this process of orienting is less a turning around—as if the philosopher or critic merely turns their attention away from the false and toward truth—than it is a cultivating of the terrain that makes expression as such possible.
+Thinking is thus fundamentally a process of orientation; the thinker orients oneself toward the true.
+This orienting process is less a turning around—as if the philosopher or critic merely turns their attention away from the false and toward truth—than it is a cultivating of the terrain that makes expression as such possible.
 (Though perhaps there is good reason to connect thinking as orientation to conversion.)
 One can think of gravitation on a plane in space and imagine the repeated exercise of thinking as shaping those forces of attraction so that when one moves, one's movement is directed by the modified curvature of the space rather than by a spontaneous force of will.
 
@@ -32,17 +51,20 @@ Writing as thinking is a practice of transforming habits of linguistic expressio
 Such transformation includes the transformation of the words themselves, as they are part and parcel of those habits of expression.
 "To clarify the meaning of words, sentences, and sequences of phrases" is not a one-sided affair, whereby the thinker becomes better able to make sense of static phrases.
 It is a process of customizing language, of creating new language.
+When we keep in mind that to mean something true or interesting is to direct thought outward in a particular direction, the vector character of these thinking exercises comes to the fore.
+What is meant is separate from what is actually put forth.
+So while thinking may occupy another place, it cannot be solipsistic or self-contained.
 Knowledge, as a lived practice, requires perpetual reproduction and novel creation.
 This demand on language by thought is, for instance, of central importance to Whitehead's process philosophy.
 In order to construct a cosmological scheme on a radically revised basis relative to substance-based philosophies, Whitehead had to contend with the basic subject-predicate structure of language that has conditioned philosophic speculation since Aristotle.
 "Words and phrases must be stretched towards a generality foreign to their ordinary usage; and however such elements of language be stabilized as technicalities, they remain metaphors mutely appealing for an imaginative leap" (/PR/ 4).
 Since thinking goes hand in hand with the symbolic reference (to generalize from written language) that serves as its medium, it is better to speak not of the demand on language by thought but of the demand on past thought by novel thinking.
 Writing is a way to enact that demand and respond to it.
-* From Note-Taking to Note-Making
+* Little Drafts
 My writing system as an academic largely depended on an object to prompt me into writing.
 Once I was in the midst of a project, I could usually count on myself to worry away at it.
 Regardless of what it was that got me writing, I wrote longform almost exclusively.
-I would take detailed notes on a text, producing a collection of personal indices, summaries, and arguments, often expounding on some point for hundreds of words.
+I would take detailed notes on a text, producing a collection of personal indices, summaries, and arguments, often expounding on some point for many hundreds of words.
 These notes would be saved in a single file named after the author and text.
 I could then directly lift these summaries and arguments into a writing project or refer to them in seminars.
 Since I tend to associate arguments and ideas with the objects that prompted me to make/have them, I had no problem relocating what I had written.
@@ -53,36 +75,53 @@ This workflow demanded, at least it did for me, a lot of uninterrupted attention
 Writing was itself what interrupted me: from reading or consuming some object of analysis or an unrelated activity like sleep.
 My writing happened /in media res/.
 This meant that my attention to an object was frequently interrupted by discursions.
-Furthermore, I wrote notes that were auxiliary to external functions such as finding a reference, reviewing a text or concept, or storing my partial drafts for later compositions.
+Furthermore, my notes were auxiliary to external functions such as finding a reference, reviewing a text or concept, or storing my partial drafts for later compositions.
 
-But my circumstances for writing have changed.
-I have less time and less energy to devote to it, seeing as I am no longer paid to do so, and I don't have the same daily activities that fostered my writing.
+Today, I have less time and less energy to devote to writing, seeing as I am no longer paid to do so, and I don't have the same daily activities that fostered my writing.
 In particular, I don't have quite so many incidental prompts to come up with arguments, which would occur in conversation, while teaching, and following the work of others.
 I also no longer have the overarching professional need to conduct research and to publish.
 
 My way of writing has changed to reflect this new circumstance of performing criticism explicitly for the sake of self-formation rather than professional output and performance.
-Instead of writing with a mind toward some public-facing output, I write with a focus on this demand on past thought by novel thinking.
+Instead of writing with a mind toward some public-facing output, I write in a way that encompasses the demand on past thought by novel thinking.
 I now take fewer notes while reading (or watching or playing, etc.); and when I do take a note, it's brief, just enough to serve as a point of departure for later.
-That's the idea: to come back and write notes as a separate activity.
-Instead of producing this running log of notes in parallel with the object encountered, I prioritize a way of writing for which the notes are themselves the work.
-Their purpose is no longer to serve as a reference for thinking that occurs due to some external motivator (to publish, to teach).
+The idea is to come back and write as a dedicated activity.
+Instead of producing a running log of notes in parallel with the object encountered, and instead of preparing material to serve some external motivator, the notes are themselves the work.
 Their purpose is to be engaged with in the service of creating new notes.
+As before, I continue to write in a thorough, legible prose, such that these notes might be more suitably called little drafts or texts.
 
-The shift in prioritization fosters two practical disciplines: a discipline over attention and a discipline over motivation.
-# Edit the below to not use the "note-taking" and "note-making" terms.
-# Also remove repetition of the take short notes now for later, which was explained in previous paragraph.
-Note-taking is a short-form record of considerations to return to, considerations which came up while encountering something.
-Writing notes occurs in its own time, separate from the encounter.
-I make notes based on the notes I have taken.
+The shift in prioritization—away from intermediary texts to sustained provocation of further thinking—fosters two practical disciplines: a discipline over attention and a discipline over motivation.
+Writing now occurs in its own time, separate from the encounter of another's work.
 Even when I return to a full passage in a book or review a scene in a film, I do so with the order of attention inverted to how it was during the encounter.
 The object no longer dominates the flow of experience; instead it is the composition of notes that shapes my experience of the object.
 To digress from a work too early often means making unnecessary work for myself.
 I end up writing things that, had I followed the object to its conclusion, I would not have felt the need to write at all.
 In other words, when I do resist the urge to write in excess, I often find my question answered, my confusion undone, or my observation complicated.
 
-My other practical reason for wanting to reinforce the distinction between note-taking and note-making is to decouple the motivation to write from the immediate response to what I am consuming.
-If I am able to ground my writing in the notes I take quickly while consuming something as well as in existing notes I have "made," then I expect I will be more capable of prompting myself to write when I want to write as opposed to when something fortuitously evokes me to do so.
+This temporal separation of concerns also decouples the motivation to write from the immediate response to what I am consuming.
+If I am able to ground my writing in the notes I take quickly while consuming something as well as in existing notes I have created previously, then I expect I will be more capable of prompting myself to write when I want to write as opposed to when something fortuitously evokes me to do so.
+* Contemporary zettelkasten discourse
+A lot of the above resonates with what proponents of keeping a zettelkasten advocate.
+The two basic operations are to write notes and to link them.
+There's a lot of discussion in online forums about formalizing these operations into just the right system.
+Sönke Ahrens in /How to Take Smart Notes/ popularized Luhmann's zettelkasten and rendered it into steps and different categories of notes ("literature" or "reference" notes vs. "permanent" notes).
+I think Sasha Fast, over on zettelkasten.de, is correct to downplay such distinctions, as he does often in reply to people posting questions.
+The only one I'll take up here is the idea of an "atomic note."
+But I'll get back to that.
 
+The primary motivation (and belief) to keeping a zettelkasten is that it is supposed to match how people typically think with an objective record of that thinking, such that the objective record becomes the place in which thinking occurs.
+Ahrens begins his book with the observation that writing never starts with a blank page but, rather, extends whatever one has already written.
+The zettelkasten formalizes this into the notes-creation process.
+In order to make past writing extendable, notes are supposed to be limited to a single idea.
+Linking to past notes...
+
+Copying over my little drafts from when I wrote them in direct response to some object certainly expresses this point.
+But it is a one-way transfer, which often exhausts the potential for that little draft to become novel thinking.
+This is why I've been writing in a way that constantly engages with what I previously wrote and does so directly by linking to it.
+
+I first encountered Niklas Luhmann in an undergrad seminar in 2010.
+I read a bit about his slip-box then, but didn't implement it.
+
+Some of it I came to independently, and some of it I have adopted from those recommendations.
 ** Problems with Doto's GTD-inspired note-taking vs note-making
 This splitting off of the creation of notes from the consumption of things echoes what Bob Doto calls note-making in contrast to note-taking: a way of writing for which the notes are themselves the work (Doto, /A System for Writing/).
 This distinction is itself inspired by Sönke Ahrens's distinction between on one hand, literature notes or reference notes as well as fleeting notes, and on the other hand permanent notes.
