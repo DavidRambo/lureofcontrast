@@ -1,0 +1,274 @@
++++
+title = "Can Making Notes Be a Discipline? (On using org-roam and contemporary zettelkasten practices)"
+date = 2026-05-12
+draft = true
++++
+#+title: Can Making Notes Be a Discipline? (On using org-roam and contemporary zettelkasten practices)
+
+Late last year I returned to a more regular reading-and-writing practice following a nearly two-year hiatus from when I left academia.
+Before that, in the summer, I read up on the recent interest in note-taking systems inspired by Niklas Luhmann's zettelkasten, or slip-box, his boxes of interlinked note cards through which he did all of his academic work.
+I first encountered Luhmann in an undergrad seminar in 2010.
+I read a bit about his slip-box then, but didn't implement it.
+This year, I've adapted it to my post-academic writing practice.
+In this post I go over how I write today, including the tools I use and how and why I use them as I do, as well as some criticism of zettelkasten discourse.
+
+* How I write
+I write in plain text ~.org~ files (a markup language called "org") using [[orgmode.org][org mode]] in the text editor and active LISP environment [[https://www.gnu.org/software/emacs/][GNU Emacs]].
+Specifically, I use [[https://github.com/doomemacs/doomemacs][Doom Emacs]] because, one, before writing in Emacs I used [[https://github.com/vimwiki/vimwiki][vimwiki]] and enjoy Vim's modal editing, and, two, it makes running a quick, feature-filled, and nice-looking configuration of Emacs relatively easy.
+As you would expect from working with plain text in a text editor, there is very little interface, just a statusline at the bottom and [[https://github.com/abo-abo/swiper][the Ivy swiper]] that pops up in the bottom fifth of the frame when performing a search.
+And since Emacs is an interpreter of its own LISP variant, you can write and run code that modifies your setup on the fly.
+(For example, [[https://org-roam.discourse.group/t/solved-i-want-to-see-only-backlinks-in-side-buffer-nothing-else-possible/3404/6][here's a discussion]] on the org-roam discourse forums discussing code that opens the org-roam side buffer with its contents folded.)
+Here's [[https://www.github.com/DavidRambo/doom_config][my config]] (the main file is ~lit_config.org~, which provides an example of how org mode supports literate programming).
+
+For a while I used more of org mode's features like the agenda and calendar.
+I even did inline LaTeX for all my homework in a math class once.
+Its integration with pandoc for exporting to other file formats allows me to write longform pieces in Emacs before finishing them up in LibreOffice or just converting to a PDF.
+Writing longer pieces using org's structured text (nested headings) with [[https://github.com/emacs-evil/evil][evil-mode]] for a Vim-like experience and quick access to all my existing writing with ripgrep-backed fuzzy search is awesome.
+I can open up multiple windows (think of it like split panes in the same application frame), including multiple windows to the same file, and navigate a list of open buffers without having a bunch of tabs or a filetree explorer cluttering my view.
+
+Another detail that writing in a markup syntax like org in a text editor encourages is one sentence per line.
+You can even break up a sentence into multiple lines.
+It'll all get placed into the same paragraph when exporting to a word processor or PDF.
+This facilitates the adage that writing is rewriting because it chunks it up into manipulable units.
+Holding Shift+Alt and pressing a directional key (the arrows or J/K), I can move sentences up and down; holding Alt, I can move paragraphs.
+That's nice, but the main benefit in my experience is seeing the sentences with a bit of visual distinction.
+
+These days I mainly use a plugin called [[https://www.orgroam.com][org-roam]], inspired by [[https://roamresearch.com][Roam Research]], which provides a basic zettelkasten function: namely, a list of a node's backlinks (i.e. other nodes that link to it).
+(Aside: org-roam uses the term "node" where most use "note." I prefer "node" because it is more generic.)
+It uses a sqlite database to support its own linking system (org mode already supports links) and search.
+This makes it possible to change the titles of nodes without either worrying about the underlying file name or needing to update all the backlinks, since everything is rooted to unique IDs.
+Each heading in an org file can be tagged with additional metadata, including an id for org-roam's database and aliases (i.e. alternate titles), so a single file can contain multiple such nodes.
+
+When I have an idea or want to make note of something, I typically start by writing it down by hand or on my phone in [[https://dynalist.io][dynalist]].
+If it's in response to something I'm encountering for the first time—a film, a book, whatever—then what I write will be brief.
+It needs to be enough to serve as a point of departure for writing but not take so much of my attention that I lose focus on the object.
+(I'll return to this later.)
+If I'm not actively consuming something, then I'll write more, a few dozen to a couple hundred words, I'd guess.
+Later, at least once a week, but it's better to do so more frequently, I type them up into a longstanding org file I use for this staging work.
+Each node gets its own heading, and the headings make it easy to split nodes and nest others.
+When I'm convinced that what I'm writing will become an actual node in my org-roam database, then I use a keyboard shortcut to create an id for that heading.
+Keeping them together is helpful for figuring out initial links between nodes.
+Another keyboard shortcut extracts the heading and its content to a new file named after the heading, which becomes that org-roam node's title.
+I only extract a node to a new file once it's been linked to the existing network.
+
+Having this single file for processing notes into nodes is crucial for me because otherwise I'd forget about them.
+I have another file that lists links to a handful of nodes, organized by topic, which I can use as a starting point from which to traverse the network.
+More typically, I search the list of node titles for one that I either already have in mind or that probably matches what I'm wanting to think about.
+
+Finally, I sync my writing between machines using git, which of course can be run within Emacs with [[https://github.com/magit/magit][magit]].
+** Creating a node
+I've glossed the most important and most challenging part: creating a node that I'm happy with.
+In other words, the actual writing.
+A node needs to be focused to the point that its title expresses enough of its content that I can read the title and decide whether to read the full node in order either to add a link to it or to navigate to it.
+A title can be long, to be sure, but it's easier to work with a node when its title is on the shorter side.
+Mine typically range from four to sixteen words, with most being in the ten to twelve range.
+This soft requirement is the primary constraint of node creation for me.
+From that constraint, I'm better able to maintain past thinking in dialogue with novel thinking.
+(Later I'll return to this question of why bother with this method.)
+
+Restricting a node to contain only what is expressed by its title goes against years of how I took notes as an academic.
+I would take detailed notes on a text, producing a collection of personal indices, summaries, and arguments, often expounding on some point for many hundreds of words.
+These notes would be saved in a single file named after the author and text.
+I could then directly lift these summaries and arguments into a writing project or refer to them in seminars.
+Since I tend to associate arguments and ideas with the objects that prompted me to make/have them, I had no problem relocating what I had written.
+I on occasion wrote standalone notes ranging from a few hundred words to a couple thousand.
+Perhaps they should be called "little drafts" instead of notes.
+These, too, could be slotted into an article or dissertation chapter.
+Since I was always working on multiple projects at different stages of completion, I didn't forget about these references and little drafts because I frequently recalled them.
+
+It took me a while to learn to write linkable nodes.
+They differ from how I used to write in two ways more fundamental than length.
+My preexisting writing habits produced records of thinking /through/ something (that's the first way) for the sake of understanding or for an ongoing project (that's the second).
+Nearly everything I wrote was in publishable prose—not necessarily the greatest quality, but intended to be read as a monograph nonetheless.
+What I wrote therefore referred to other things, often by inclusion: it rehashed definitions, combined observations, began one analysis that grew into another.
+My notes, these little drafts, were trains of thought.
+By contrast, a Luhmann-style note records a single idea or statement.
+The linked structure of the slip box, the threads, as Luhmann called them, merely /implies/ thought.
+Thinking is what happens when traversing the slip-box.
+An actually written work conveys the intention of thought.
+A note should store an element for thinking and not the process whereby it was produced.
+
+From this perspective, my notes writing was a combination of conventional note-taking (i.e. a personal index of references) and exploratory first drafts.
+The potential problem is that writing little drafts for notes can obstruct the referential plenitude of linking to others.
+So when I write that way now, I then take an additional step of extracting relatively self-contained claims or ideas.
+Thus, the whole process revolves around what "relatively self-contained" means.
+I strain against the precept of one idea per note because ideas are meaningless in isolation.
+Indeed, everything is meaningless in isolation—nothing is in isolation.
+It's like an intellectual productivity-hack version of "the doctrine of simple location," which presupposes externally related inert substances (Whitehead /Science and the Modern World/, 58).
+And it's neither how I think nor, frankly, an interesting way of doing intellectual work.
+The separation of an idea's production from the idea itself, and the further separation of an idea from all those that it is not but which thereby determine it—these separations are abstractions, and if you want to work with an idea then you need to be able to return from the shorthand separateness to the concrete reality, the details and negations that make the idea what it is.
+Abstractions are useful until they detach from the conditions of their production and become "predatory" of those who think them and stand in for the concrete whole whence they came (Debaise and Keating).
+# The below may go better in a later section when I'm criticizing ZK theory and methods.
+A key skill in expert-level work is the facility of transferring between grades of abstractions.
+Contra zettelkasten popularizer Sönke Ahrens, details do not get in the way of thinking (/How to Take Smart Notes/).
+
+One popular term for such one-idea notes is appropriately an "atomic note."
+Christian Tietze (one of the co-creators of zettelkasten software The Archive and corresponding forums over at zettelkasten.de) refers to "the principle of atomicity" [[https://zettelkasten.de/posts/create-zettel-from-reading-notes/][in a post from September 2013]].
+In practice, atomicity is often presented as implying short and simple.
+[[https://zettelkasten.de/posts/principle-of-atomicity-difference-between-principle-and-implementation/][In a follow-up post]], Christian's business partner Sascha Fast rightly criticizes the assumption that atomicity means short and simple.
+(Actually, he says it most clearly in response to someone on the forums, which I've failed to relocate.)
+I also appreciate his dissatisfaction with how some of the higher-profile zettelkasten users/proponents write notes that are just the title.
+Luhmann, too, wrote very sparse notes, often in his own shorthand.
+Sascha calls these note collections "prompt machines" because the thinking happens outside of the notes.
+This is indeed a problem with the one-idea-per-note style against which I have reacted.
+
+But I think he misses how Luhmann's identification scheme (so-called "Folgezettel" or sequence of notes) belies the apparent condensation and isolation of his slips:
+#+begin_quote
+[Daniel Lüdecke] claimed that Folgezettel is essential to a Luhmannian Zettelkasten. My counter-position was and still is that the whole reason to use a particular numbering scheme was to enable direct linking, since Luhmann self-stated:
+
+    With this technique, it is not important where you place a new note. When there are multiple options, you can solve the problem by placing the note wherever you want and creating references to capture other possible contexts. (My [i.e. Sascha's] Translation)
+#+end_quote
+I think that Sascha has conflated two senses of "where."
+For while it does not matter where physically in the many slip-boxes a note goes, it does matter where formally it goes due to the identification scheme.
+Luhmann's numbering scheme is important because of how it /conditions/ the creation of notes in a linear sequence, which is in addition to affording arbitrary linking to other notes.
+It enables one to "find the original textual whole easily" despite "that the originally continuous text is often broken up by hundreds of intermediary slips" (Ahrens).
+This breaking up of continuity is due to the physical placement of offshoot cards between other connected cards.
+For example, between notes 9/1a and 9/1b, there may be an intermediary sequence 9/1a1 through 9/1a5, and so on.
+Thus, in order to understand a note, one must take into account its position within its sequence and within any other threads established by links.
+
+I prefer to think of a node's atomicity in terms of indivisibility and position within the system.
+A process is indivisible when it cannot be split or have a part considered in abstraction without destroying that process altogether.
+Indivisibility does not preclude complexity or multiple ideas/statements.
+The emphasis is on synthesis over analysis, which synthesis comprises the details of the node's writing as well as its links.
+Instead of atomizing (decomposition to an idea's essence), I think of atomization (realization of a fact through a decision about potentiality).
+
+The style I have settled on is not quite what the popular representations of zettelkasten would have me do, but it's closer to Christian and Sascha's than others.
+A single node might only be linkable to what precedes it and follows it, yet it makes sense to keep it separate because those other nodes may link to more than that sequence.
+For example, looking at one of the nodes I opened for this post, the title is "Luhmann's productivity may have more to do with sustained attention than to the slip box itself," and the main content is 150 words:
+#+begin_quote
+Based on my own experience with writing in a qualitatively and quantitatively productive manner, I suspect that what was key to Luhmann's prodigious output had as much if not more to do with his continuous stream of ideas and questions and themes than with the particular technical organization of his notes.
+I do not mean that the slip box had no impact but, rather, that its shape was secondary, that it served to support the primary task of thinking through reading and writing.
+Luhmann was always already extending his extant notions, such that a linked note was already in mind if not already established when beginning to write a new note.
+This requires quite a bit of mental upkeep, which is easy once you have inertia (and work as much as Luhmann did), but which can present a barrier to writing if you have been away from or have paused your practice for an extended period of time.
+#+end_quote
+This main content is ollowed by a simple forward link to a note of 95 words:
+#+begin_quote
+By contrast, [[id:6a327449-b0d7-4d7a-a81a-ac8c8e329ec0][GTD-inspired zettelkasten methods might miss the key to Luhmann's workflow]].
+#+end_quote
+There are two backlinks: "the ethical distinction's self-concern is an ascesis of attention" and "zettelkasten method is a way to always be working on a piece of writing."
+
+The framing of a link in the current node's context is crucial for me to split the difference between continuous prose and indivisible, relatable nodes.
+In the second backlink mentioned, the framing of the link is a quarter of the length of the main node content; it's half that if you count the link's text:
+#+begin_quote
+The zettlekasten method is a way to be always working on a piece of writing even when you do not have a specific project in mind.
+Thus when taking down notes, one ought to have in mind, perhaps only subconsciously, some note or theme in the zk.
+This may even mean that the note or theme is intended to initiate a thread, to fill a lacuna in the slip box.
+Once one has a writing practice underway, the zk is always "open" so to speak.
+
+The zk is therefore more of a dynamic, material anchor for one's intellectual life than a machine one must fuel and withdraw from:
+[[id:dfdfe842-5294-493a-8bf3-ff553dbf8d33][Luhmann's productivity may have more to do with sustained attention than to the slip box itself]].
+#+end_quote
+Sometimes the node title is enough context, as can be seen in the other backlink mentioned:
+![](ethical_distinction_node.png)
+Some might break off the second half, at "Against the modern valorization," and then again the definition of "reform," both into their own nodes.
+Maybe I will at some point, but at the moment, those lines contribute something essential to the claim about self-concern as a disciplining of attention.
+It clarifies an attention "toward one's own form" as "reform," and in particular as a reformation of one's defining patterns.
+* Thinking as an askesis with symbolic reference
+Why bother with this method? 
+First and foremost, the circumstances around my writing have changed.
+I no longer read and respond to what I take in with a motivation to publish, deliver a talk, or teach a class.
+Yet those motivators did express the deeper purpose of critical writing: to think.
+What is it we do when we think?
+We occupy a different place than ordinary, practical life.
+We entertain a theoretical attitude that is an open-ended training regime requiring frequent honing and straining of one's sensitivities to what experience comprises including, crucially, those forms that are coextensive with experiences of reason. 
+This different place, for me and for many, has increasingly been the making of notes.
+But before I explain some of the practicalities, like the tools I use, how I use them, and how that compares with recent ideas about those tools, I think it would be helpful to dwell on what goes on in such a place.
+
+"Thinking persons are transposed to a sphere dominated by a single exercise: to clarify the meaning of words, sentences, and sequences of phrases we may speak when we want to say something true" (Sloterdijk, /The Art of Philosophy/ ch.1).
+According to Peter Sloterdijk, the fundamental exercise of the theoretical attitude is the preparation of language for expressing truth.
+This is, essentially, a Platonic definition of thinking activity, of reasoning, in that it aims toward knowledge (/episteme/) in direct opposition to opinion (/doxa/).
+(This isn't the setting to explore what is meant by "truth." So suffice it to say that the sense of truth here is not to be constrained to judgements of whether a proposition corresponds to empirical evidence. Following Whitehead, I am inclined to open up the goal of thinking from "truth" to "interest" and its basic operation from judgement to entertainment. But I'll stick with the term "true" because it denotes the critical side of rational speculation, whereas "interest" can be conflated with flights of fancy.)
+Thought is the working through of language in order to mean truthfully; it works through and on language.
+To mean is to intend, to direct oneself toward.
+Thinking is thus fundamentally a process of orientation; the thinker orients oneself toward the true.
+This orienting process is less a turning around—as if the philosopher or critic merely turns their attention away from the false and toward truth—than it is a cultivating of the terrain that makes expression as such possible.
+(Though perhaps there is good reason to connect thinking as orientation to conversion.)
+One can think of gravitation on a plane in space and imagine the repeated exercise of thinking as shaping those forces of attraction so that when one moves, one's movement is directed by the modified curvature of the space rather than by a spontaneous force of will.
+
+Writing as thinking is a practice of transforming habits of linguistic expression to tend toward truth.
+Such transformation includes the transformation of the words themselves, as they are part and parcel of those habits of expression.
+"To clarify the meaning of words, sentences, and sequences of phrases" is not a one-sided affair, whereby the thinker becomes better able to make sense of static phrases.
+It is a process of customizing language, of creating new language.
+When we keep in mind that to mean something true or interesting is to direct thought outward in a particular direction, the vector character of these thinking exercises comes to the fore.
+What is meant is separate from what is actually put forth.
+So while thinking may occupy another place, it cannot be solipsistic or self-contained.
+Knowledge, as a lived practice, requires perpetual reproduction and novel creation.
+This demand on language by thought is, for instance, of central importance to Whitehead's process philosophy.
+In order to construct a cosmological scheme on a radically revised basis relative to substance-based philosophies, Whitehead had to contend with the basic subject-predicate structure of language that has conditioned philosophic speculation since Aristotle.
+"Words and phrases must be stretched towards a generality foreign to their ordinary usage; and however such elements of language be stabilized as technicalities, they remain metaphors mutely appealing for an imaginative leap" (/PR/ 4).
+Since thinking goes hand in hand with the symbolic reference (to generalize from written language) that serves as its medium, it is better to speak not of the demand on language by thought but of the demand on past thought by novel thinking.
+Writing is a way to enact that demand and respond to it.
+* Little Drafts
+My writing system as an academic largely depended on an object to prompt me into writing.
+Once I was in the midst of a project, I could usually count on myself to worry away at it.
+Regardless of what it was that got me writing, I wrote long (for a note) prose almost exclusively.
+# Moved a chunk to the "Creating a node" section above.
+This workflow demanded, at least it did for me, a lot of uninterrupted attention.
+Writing was itself what interrupted me: from reading or consuming some object of analysis or an unrelated activity like sleep.
+My writing happened /in media res/.
+This meant that my attention to an object was frequently interrupted by discursions.
+Furthermore, my notes were auxiliary to external functions such as finding a reference, reviewing a text or concept, or storing my partial drafts for later compositions.
+
+Today, I have less time and less energy to devote to writing, seeing as I am no longer paid to do so, and I don't have the same daily activities that fostered my writing.
+In particular, I don't have quite so many incidental prompts to come up with arguments, which would occur in conversation, while teaching, and following the work of others.
+I also no longer have the overarching professional need to conduct research and to publish.
+
+My way of writing has changed to reflect this new circumstance of performing criticism explicitly for the sake of self-formation rather than professional output and performance.
+Instead of writing with a mind toward some public-facing output, I write in a way that encompasses the demand on past thought by novel thinking.
+I now take fewer notes while reading (or watching or playing, etc.); and when I do take a note, it's brief, just enough to serve as a point of departure for later.
+The idea is to come back and write as a dedicated activity.
+Instead of producing a running log of notes in parallel with the object encountered, and instead of preparing material to serve some external motivator, the notes are themselves the work.
+Their purpose is to be engaged with in the service of creating new notes.
+As before, I continue to write in a thorough, legible prose, such that these notes might be more suitably called little drafts or texts.
+
+The shift in prioritization—away from intermediary texts to sustained provocation of further thinking—fosters two practical disciplines: a discipline over attention and a discipline over motivation.
+Writing now occurs in its own time, separate from the encounter of another's work.
+Even when I return to a full passage in a book or review a scene in a film, I do so with the order of attention inverted to how it was during the encounter.
+The object no longer dominates the flow of experience; instead it is the composition of notes that shapes my experience of the object.
+To digress from a work too early often means making unnecessary work for myself.
+I end up writing things that, had I followed the object to its conclusion, I would not have felt the need to write at all.
+In other words, when I do resist the urge to write in excess, I often find my question answered, my confusion undone, or my observation complicated.
+
+This temporal separation of concerns also decouples the motivation to write from the immediate response to what I am consuming.
+If I am able to ground my writing in the notes I take quickly while consuming something as well as in existing notes I have created previously, then I expect I will be more capable of prompting myself to write when I want to write as opposed to when something fortuitously evokes me to do so.
+* Contemporary zettelkasten discourse
+A lot of the above resonates with what proponents of keeping a zettelkasten advocate.
+The two basic operations are to write notes and to link them.
+There's a lot of discussion in online forums about formalizing these operations into just the right system.
+Sönke Ahrens in /How to Take Smart Notes/ presents Luhmann's zettelkasten with some references to research in education, psychology, and neuroscience, and rendered it into steps and different categories of notes ("literature" or "reference" notes vs. "permanent" notes).
+(As an aside, I found it an enjoyable book. Ahrens is, or perhaps used to be, an academic, with a doctorate in education, I believe. So his perspective is more interesting to me than typical productivity guru types, and his purpose of helping others maintain a life-long thinking practice comes across as genuine.)
+I think Sasha Fast is correct to downplay such distinctions, as he does often in reply to people posting questions.
+The only one I'll take up here is the idea of an "atomic note."
+But I'll get back to that.
+
+The primary motivation (and belief) to keeping a zettelkasten is that it is supposed to match how people typically think with an objective record of that thinking, such that the objective record becomes the place in which thinking occurs.
+Ahrens begins his book with the observation that writing never starts with a blank page but, rather, extends whatever one has already written.
+The zettelkasten formalizes this into the notes-creation process.
+In order to make past writing extendable, notes are supposed to be limited to a single idea.
+Linking to past notes...
+
+Copying over my little drafts from when I wrote them in direct response to some object certainly expresses this point.
+But it is a one-way transfer, which often exhausts the potential for that little draft to become novel thinking.
+This is why I've been writing in a way that constantly engages with what I previously wrote and does so directly by linking to it.
+
+
+Some of it I came to independently, and some of it I have adopted from those recommendations.
+** Problems with Doto's GTD-inspired note-taking vs note-making
+This splitting off of the creation of notes from the consumption of things echoes what Bob Doto calls note-making in contrast to note-taking: a way of writing for which the notes are themselves the work (Doto, /A System for Writing/).
+This distinction is itself inspired by Sönke Ahrens's distinction between on one hand, literature notes or reference notes as well as fleeting notes, and on the other hand permanent notes.
+
+In the first chapter, Doto quotes David Allen, the GTD guy: "The mind is for having ideas, not holding them."
+While by "having" is surely meant "coming up with new," the word choice is telling because it belies the difference between having and holding.
+
+- [[id:cb4b4aaa-fc28-4b14-bf11-0055198a03fb][to write in spite of the zettlekasten misses out on the point of having one]]
+- [[id:e6c15758-360c-412c-8f55-554ab2e737d7][Ahrens contends that details get in the way of thinking]]
+- [[id:b12d0326-d84c-4ec3-a403-8426090b273a][Ahrens distinguishes thinking from remembering]]
+* ...
+Yet to frame thinking as exercises in the manipulation of symbolic reference is to beg the question: what of the performances for which training prepares the exercitant?
+As an academic, these were obvious: publications, talks, and teaching.
+But the point of taking an ascetic perspective on writing is to recognize the very exercises as performances in their own right.
+
+
+Sloterdijk: "every gesture carried out shapes its performer and determines their future state from the second occurrence on" (/YMCYL/ "Prospect").
+
+Practice can be considered a self-contained process insofar as it refers to any gesture that...
