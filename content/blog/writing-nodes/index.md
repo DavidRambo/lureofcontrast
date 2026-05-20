@@ -92,7 +92,7 @@ can be run within Emacs with [magit](https://github.com/magit/magit).
 When I have an idea or want to make note of something, I typically start
 by writing it down by hand or on my phone in
 [dynalist](https://dynalist.io). If it\'s in response to something I\'m
-encountering for the first time---a film, a book, whatever---then what I
+encountering for the first time—a film, a book, whatever—then what I
 write will be brief. It needs to be enough to serve as a point of
 departure for writing but not take so much of my attention that I lose
 focus on the object. (I\'ll return to this later.) If I\'m not actively
@@ -136,7 +136,7 @@ thinking in dialogue with novel thinking.
 ## Changing habits of writing
 
 Restricting a chunk of writing to contain only what is expressed by its
-title---indeed, even creating a unit of writing _with_ a title---goes
+title—indeed, even creating a unit of writing _with_ a title—goes
 against years of how I took notes as an academic. I would take detailed
 notes on a text, producing a collection of personal indices, summaries,
 and arguments, often expounding on some point for many hundreds of
@@ -157,7 +157,7 @@ how I used to write in two ways more fundamental than length. My
 preexisting writing habits produced records of /thinking _through_
 something (that\'s the first way) for the sake of coming to understand
 or for an ongoing project (that\'s the second). Nearly everything I
-wrote was in publishable prose---not necessarily the greatest quality,
+wrote was in publishable prose—not necessarily the greatest quality,
 but intended to be read as a monograph nonetheless. What I wrote
 therefore referred to other things, often by inclusion: it rehashed
 definitions, combined observations, began one analysis that grew into
@@ -185,14 +185,14 @@ a chore after a month or so.
 Thus, the whole node-writing process revolves around what \"relatively
 self-contained\" means. I strain against the precept of one idea per
 note because ideas are meaningless in isolation. Indeed, everything is
-meaningless in isolation---nothing is in isolation. It\'s like an
+meaningless in isolation—nothing is in isolation. It\'s like an
 intellectual productivity-hack version of \"the doctrine of simple
 location,\" which presupposes externally related inert substances
 (Whitehead _Science and the Modern World_, 58). And it\'s neither how I
 think nor, frankly, an interesting way of doing intellectual work. The
 separation of an idea\'s production from the idea itself, and the
 further separation of an idea from all those it\'s not but which thereby
-determine it---these separations are abstractions, and if you want to
+determine it—these separations are abstractions, and if you want to
 work with an idea then you need to be able to return from the shorthand
 separateness to the concrete reality, the details and negations that
 make the idea what it is. Abstractions are useful until they detach from
@@ -378,9 +378,9 @@ because it denotes the critical side of rational speculation, whereas
 over language and through it in order to mean truthfully. To mean is to
 intend, to direct oneself toward. Thinking is thus fundamentally a
 process of orientation; the thinker orients oneself toward the true.
-This orienting process is less a turning around---as if the philosopher
+This orienting process is less a turning around—as if the philosopher
 or critic merely turns their attention away from the false and toward
-truth---than it is a cultivating of the terrain that makes expression as
+truth—than it is a cultivating of the terrain that makes expression as
 such possible. (Though there is good reason to connect thinking as
 orientation to turning in the sense of a conversion.) One can think of
 gravitation and imagine the repeated exercise of thinking as shaping
@@ -433,8 +433,8 @@ preparing material to serve some external motivator, the nodes
 themselves are the work. Their purpose is to be engaged with in the
 service of creating new nodes and new connections.
 
-The shift in prioritization---away from intermediary texts to sustained
-provocation of further thinking---fosters two practical disciplines: a
+The shift in prioritization—away from intermediary texts to sustained
+provocation of further thinking—fosters two practical disciplines: a
 discipline over attention and a discipline over motivation. Writing now
 occurs in its own time, separate from the encounter of another\'s work.
 Even when I return to a full passage in a book or review a scene in a
