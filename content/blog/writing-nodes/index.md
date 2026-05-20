@@ -178,7 +178,7 @@ extract relatively self-contained claims or ideas. Requiring that a new
 node link to the existing network helps to clarify what precisely a node
 ought to express. There isn\'t a trick to this beyond consistently
 practicing it. It started to feel comfortable and productive rather than
-a chore after a month or so.
+a chore after a month or so. (I'll show some examples after the next section.)
 
 ## Atomic means contained and dispersed
 
@@ -197,8 +197,8 @@ work with an idea then you need to be able to return from the shorthand
 separateness to the concrete reality, the details and negations that
 make the idea what it is. Abstractions are useful until they detach from
 the conditions of their production and become \"predatory\" of those who
-think them and stand in for the concrete whole whence they came (Debaise
-and Keating).
+think them and stand in for the concrete whole whence they came ([Debaise
+and Keating](https://journals.sagepub.com/doi/10.1177/02632764211052076)).
 
 A key skill in expert-level work is the facility of transferring between
 grades of abstractions. Contra Sönke Ahrens (who popularized Luhmann\'s
@@ -237,10 +237,10 @@ his slips:
 > whole reason to use a particular numbering scheme was to enable direct
 > linking, since Luhmann self-stated:
 >
-> With this technique, it is not important where you place a new note.
+> "With this technique, it is not important where you place a new note.
 > When there are multiple options, you can solve the problem by placing
 > the note wherever you want and creating references to capture other
-> possible contexts. (My \[i.e. Sascha\'s\] Translation)
+> possible contexts." (My \[i.e. Sascha\'s\] Translation)
 
 I think that Sascha has conflated two senses of \"where.\" For while it
 does not matter where physically in the many slip-boxes a note goes, it
@@ -267,13 +267,13 @@ its links. Instead of atomizing (decomposition to an idea\'s essence), I
 think of atomization (realization of a fact through a decision about
 potentiality).
 
-The style I have settled on is not quite what the popular
-representations of zettelkasten would have me do, but it\'s closer to
-Christian and Sascha\'s than others. A single node might only be
-linkable to what precedes it and follows it, yet it makes sense to keep
-it separate because those other nodes may link to more than that
-sequence. For example, looking at one of the nodes I opened for this
-post, the (16-word) title is \"Luhmann\'s productivity may have more to
+## Some Example Nodes
+
+A single node might only be linkable to what precedes it and follows it,
+yet it makes sense to keep it separate because those other nodes may
+link to more than that sequence.
+Looking at one of the nodes I opened to write this post,
+the (16-word) title is \"Luhmann\'s productivity may have more to
 do with sustained attention than to the slip box itself,\" and the main
 content is 150 words, followed by a simple forward link to a note of 95:
 
