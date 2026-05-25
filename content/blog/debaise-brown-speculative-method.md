@@ -33,7 +33,7 @@ As Brown explains in his chapter on Alain Badiou:
 Now, the rationalist empiricism of speculative critique differs, I think, from that of Whitehead&rsquo;s speculative philosophy, though only as two flavors of chocolate ice cream differ: we&rsquo;re talking about common commitments and approaches put to slightly different ends.
 Returning to what Debaise says of necessity, I want to highlight a significant resonance between the two theories of philosophical method.
 Debaise explains of Whitehead&rsquo;s rational constraints:
-&ldquo;Ideas refer to nothing but their own arrangement within a system constituted bytheir reciprocal implications. Only in this way can a scheme be &lsquo;necessary&rsquo;. [&#x2026;A] successful construction is one that carries within itself, immanently, guarantees of its own universality&rdquo; (Debaise 14–15.)
+&ldquo;Ideas refer to nothing but their own arrangement within a system constituted by their reciprocal implications. Only in this way can a scheme be &lsquo;necessary&rsquo;. [&#x2026;A] successful construction is one that carries within itself, immanently, guarantees of its own universality&rdquo; (Debaise 14–15.)
 Thought&rsquo;s purpose is not to generalize the real, for it is already an area of reality in its own right with its own consistencies and capacities, its own causal efficacy (12).
 A speculative scheme of ideas endeavors &ldquo;_to account for_ the particularities of experience&rdquo; through its relational constructions at the level of ideas.
 Generalizing particularities contravenes the empirical constraints of Whitehead&rsquo;s method (adequation and applicability) in that it reduces them to abstract or formal universals (i.e. what Whitehead calls the &ldquo;sensationalist dogma&rdquo;).
@@ -46,7 +46,7 @@ Specifically as speculative critique manifests in Hegel as &ldquo;immanent criti
 Thought is only &ldquo;rigorously critical&rdquo; insofar as it &ldquo;is without transcendental guarantee, insofar as its movement is ungrounded.&rdquo;
 An &ldquo;immanent critique consists in ungrounding such conditions through the elaboration of the rational experience of actual thinking&rdquo; (_RE_ 83).
 The speculative philosopher tarries with their ideas, _contrasting_ them through the two constraints of consistency and coherence (Debaise 15; cf. _PR_ 3–4).
-(&ldquo;Constrast,&rdquo; in Whitehead&rsquo;s technical vocabulary, has its analogue in Hegel&rsquo;s &ldquo;dialectical,&rdquo; since both aim at linking apparently disconnected concepts to form a more comprehensive, self-sustaining movement of experience.)
+(&ldquo;Constrast,&rdquo; in Whitehead&rsquo;s technical vocabulary, has its analogue in Hegel&rsquo;s &ldquo;dialectical,&rdquo; since both aim at combining apparently incompatible concepts into a more comprehensive, and thus more intense, moment of experience.)
 
 The speculative philosopher also never arrives at a final system, since success is only ever temporary and requires constant development.
 (Furthermore, for Whitehead, since thought belongs to the rest of reality, all of which persists only by way of permanent process, the very notion of finality is subordinated to the cosmos&rsquo;s [perpetual relapse into novelty](@/blog/process-inexhaustible-exhaustion.md).)
@@ -58,4 +58,3 @@ It concludes as well by assuming the form of the &ldquo;I.&rdquo;
 I would rather recommend you read the chapter &ldquo;Hegel&rsquo;s Apprentice&rdquo; than reproduce my own summary of it.
 Brown excavates a third Absolute (in addition to Absolute Knowing at the _Phenomenology_&rsquo;s conclusion and the Absolute Idea at the _Logic_&rsquo;s).
 In the middle of the _Logic_ is Absolute Becoming, which Meillassoux pursues (with Heidegger and Anaximander as his other principal interlocutors) as the necessity of contingency.
-I do, however, have more to say on how Whitehead&rsquo;s treatment of becoming diverges from Meillassoux&rsquo;s and is, in my assessment, the superior of the two.
