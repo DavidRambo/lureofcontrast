@@ -21,7 +21,7 @@ Whiteheadian adequation diametrically opposes a classical relation of adequation
 The &ldquo;constraint of applicability,&rdquo; which Debaise rewords as &ldquo;a constraint of validity,&rdquo; expresses that &ldquo;the scheme&rsquo;s capacity to account for experience has to be permanently put to the test&rdquo; (13).
 Again, we recognize the echoes of William James&rsquo;s radical empiricism, which endeavors to account for every experience, as well as the echoes of pragmatism&rsquo;s method, which invents ideas and pursues their truth through the construction of their effects.
 
-A contemporary connection is to Nathan Brown&rsquo;s method of [rationalist empiricism](https://www.fordhampress.com/9780823290017/rationalist-empiricism/), the exhibition of which he focuses on &ldquo;speculative critique.&rdquo;
+A contemporary connection is to a philosophical practice that Nathan Brown calls [rationalist empiricism](https://www.fordhampress.com/9780823290017/rationalist-empiricism/), which he exhibits through cases of &ldquo;speculative critique.&rdquo;
 Consider how Debaise develops these two groups of constraints:
 &ldquo;If the empirical dimension exemplifies an awareness of the relations between ideas and experience, then the rational dimension can be characterised as an economy of ideas in their pure abstraction. No longer used to generalise experience, thought rather accounts for the specificities of ideas as such&rdquo; (14).
 Necessity therefore derives &ldquo;from the _relations_ between ideas&rdquo; rather than some &ldquo;first priciple or category from which the others would be derived.&rdquo;
