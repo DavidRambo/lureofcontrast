@@ -263,9 +263,8 @@ split or have a part considered in abstraction without destroying that
 process altogether. Indivisibility does not preclude complexity or
 multiple ideas/statements. The emphasis is on synthesis over analysis,
 which synthesis comprises the details of the node\'s writing as well as
-its links. Instead of atomizing (decomposition to an idea\'s essence), I
-think of atomization (realization of a fact through a decision about
-potentiality).
+its links. Instead of a decomposition to an idea\'s essence, it's a
+realization of a fact through a decision about potentiality.
 
 ## Some Example Nodes
 
