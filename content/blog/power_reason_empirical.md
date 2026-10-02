@@ -8,11 +8,12 @@ Since thinking happens in and as experience, what then becomes of the empirical/
 Is there some part of experience that is empirical, while another part is rational?
 
 I've recently returned to Nathan Brown's _Rationalist Empiricism_, which takes up examples of that titular philosophical practice under the heading "speculative critique."
-He defines the speculative in opposition to the transcendental; for the latter guarantees the conditions of experience it articulates, whereas the former relinquishes any such ground and instead responds to what the rational in experience demands that it think. 
+He defines the speculative in opposition to the transcendental; for the latter guarantees the conditions of experience it articulates, whereas the former relinquishes any such ground and instead responds to what the rational in experience demands that it think.
+
 > "By 'rationalist' I mean to denote a philosophical orientation deploying the power of reason to push thought beyond the limits of experience, to explore _what has to be thought_ according to the internal order and consistency of ideas.
 > By empiricism I refer to a philosophical orientation claiming the genesis of ideas in experience and grounding the determination of _what is the case_ on the consistency of thinking with experiential fact (Brown 3).
-The "speculative," and I'm following Didier Debaise on Whitehead's method as well as Nathan, is the experience of the necessary connection between ideas, the truth of which bears out in their effects (Debaise, _Speculative Empiricism: Revisiting Whitehead_, esp. ch.2 "Speculative Method").
-Rather than being a separate, non-empirical domain, speculative critique is provoked by other experiences into a rational extension of the empirical, which extension, because it is itself experienced, contributes to the empirical provocation of thinking's critical speculation.
+> The "speculative," and I'm following Didier Debaise on Whitehead's method as well as Nathan, is the experience of the necessary connection between ideas, the truth of which bears out in their effects (Debaise, _Speculative Empiricism: Revisiting Whitehead_, esp. ch.2 "Speculative Method").
+> Rather than being a separate, non-empirical domain, speculative critique is provoked by other experiences into a rational extension of the empirical, which extension, because it is itself experienced, contributes to the empirical provocation of thinking's critical speculation.
 
 There is a flip side to this methodological distinction, which Mark Hansen, following Didier Debaise, calls the "speculative ban" (_Feed-Forward_ pp.86, 88–89).
 The becoming of the empirical cannot itself be empirical since it cannot be the object of experience.
@@ -31,21 +32,23 @@ Think of, for example, Bachelard's concept of phenomenotechnics, whereby a scien
 The "interruption" of what-is-the-case by what-must-be-the-case itself becomes what-is-the-case (Brown 47).
 It is important to understand that the interruption of what is given to experience is not that of a neatly ordered reality bestowing a piece of a separate realm of reason unto the subject.
 On the contrary, Nathan explains:
+
 > "For those who are willing to think, formalization is not merely the reduction of the 'messiness' of reality to the 'clean' requisites of a conceptual vocabulary.
 > It is, on the contrary, the mark of recognizing that it is precisely the chaos of contingent encounters and profoundly unassimilable states of affairs that _generates_ forms of rational discernment to which our habits offer no adequate guide, such that they must be rendered in terms that vary from ordinary language" (202).
+
 Both Bachelard and Whitehead offer similar accounts of rational thinking's relation to the empirical as a process motivated by the latter's lack of ready-made abstractions.
 Rationalization, as Whitehead defines it, is the process of consciousness identifying "essential connections within its own conscious area" (_Modes of Thought_ 124).
 So whereas vivid consciousness connects sensory detail to some real complex of originative data in the world, but which vague totality was occulted by the selection that defines conscious sensation, rationalization recognizes the essential linkages between those two.
 Or, to recur to Bachelard, the scientist's experimental apparatus perpetually seeks the rational within "the irrationality of the given" (_Connaissance Approchée_, Book II, ch.9).
 
-It should come as no surprise that speculative critique may also be identified with dialectical criticism. 
-After all, it is Adorno who provides one of the strongest rebuttals to the derogatory use of the word "speculation." 
+It should come as no surprise that speculative critique may also be identified with dialectical criticism.
+After all, it is Adorno who provides one of the strongest rebuttals to the derogatory use of the word "speculation."
 Contrary to contemporary usage of speculation as "subjective caprice," to speculate is to engage in a process of thinking that, by way of "logical self-criticism" and "confrontation with the facts," "renounces its own narrowness and in so doing gains objectivity" (from his "Introduction" to _The Positivist Dispute in German Sociology_, pp.4–5).
 Consider the "dialectical reversal," which is "a reversal of limits" whereby the strengths of a historical situation become "ironclad limits on its future development" or weaknesses become "its secret advantages" (Jameson, _Marxism and Form_ 309).
 Bachelard's epistemological obstacle exemplifies such a dialectical process.
 The epistemological obstacle defines what an object can be to the thinker; and it constrains thought through that definition.
 Surpassing one is a diachronic process whereby the epistemic motor of knowledge production becomes the limiting factor.
-It is dialectical, first, because it recognizes that an object and the subject that conceives of that object are inseparable moments of a single scene. 
+It is dialectical, first, because it recognizes that an object and the subject that conceives of that object are inseparable moments of a single scene.
 It incorporates thinking into thinking—a second-order thinking.
 The epistemological obstacle is dialectical, second, because it identifies in this self-reflexive relational scene of objectivity the kernel of an overcoming whereby epistemic impossibility transforms into a relative perspective.
 Again, thought's power is in its concreteness, which is to say, in its participation in the world from its origination in experience.
